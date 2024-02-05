@@ -2,8 +2,6 @@
 
 Simple datapack that replace default world gen with a lifeless desert
 
-Minecraft Version: 1.16.5
-
 ===--- Links to other branches ---===
 
 Main - https://github.com/lostjarred/MC-DP-Wastelandgen
