@@ -3009,7 +3009,7 @@
                                 },
                                 "then_run": {
                                   "result_state": {
-                                    "Name": "minecraft:dirt_block",
+                                    "Name": "minecraft:sand",
                                     "Properties": {
                                       "snowy": "false"
                                     }
@@ -4008,7 +4008,7 @@
                                       },
                                       "then_run": {
                                         "result_state": {
-                                          "Name": "minecraft:dirt_block",
+                                          "Name": "minecraft:sand",
                                           "Properties": {
                                             "snowy": "false"
                                           }
@@ -4161,7 +4161,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:dirt_block",
+                                  "Name": "minecraft:sand",
                                   "Properties": {
                                     "snowy": "false"
                                   }
