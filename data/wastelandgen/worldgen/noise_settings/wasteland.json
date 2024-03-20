@@ -2938,7 +2938,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:wooded_badlands"
+                        "wastelandgen:wooded_badlands_waste"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -3037,7 +3037,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:swamp"
+                        "wastelandgen:swamp_waste"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -3095,8 +3095,8 @@
               "if_true": {
                 "biome_is": [
                   "wastelandgen:badlands_waste",
-                  "minecraft:eroded_badlands",
-                  "minecraft:wooded_badlands"
+                  "wastelandgen:eroded_badlands_waste",
+                  "wastelandgen:wooded_badlands_waste"
                 ],
                 "type": "minecraft:biome"
               },
@@ -3391,8 +3391,8 @@
                     {
                       "if_true": {
                         "biome_is": [
-                          "minecraft:frozen_ocean",
-                          "minecraft:deep_frozen_ocean"
+                          "wastelandgen:frozen_ocean_waste",
+                          "wastelandgen:deep_frozen_ocean_waste"
                         ],
                         "type": "minecraft:biome"
                       },
@@ -3450,7 +3450,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:frozen_peaks"
+                              "wastelandgen:frozen_peaks_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -3521,7 +3521,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:snowy_slopes"
+                              "wastelandgen:snowy_slopes_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -3586,7 +3586,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:jagged_peaks"
+                              "wastelandgen:jagged_peaks_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -3627,7 +3627,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:grove"
+                              "wastelandgen:grove_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -3682,7 +3682,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:stony_peaks"
+                                  "wastelandgen:stony_peaks_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -3717,7 +3717,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:stony_shore"
+                                  "wastelandgen:stony_shore_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -3773,7 +3773,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:windswept_hills"
+                                  "wastelandgen:windswept_hills_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -3797,9 +3797,9 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
+                                  "wastelandgen:warm_ocean_waste",
                                   "wastelandgen:beach_waste",
-                                  "minecraft:snowy_beach"
+                                  "wastelandgen:snowy_beach_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -3835,7 +3835,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:desert"
+                                  "wastelandgen:desert_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -3889,7 +3889,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:windswept_savanna"
+                              "wastelandgen:windswept_savanna_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -3933,7 +3933,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:windswept_gravelly_hills"
+                              "wastelandgen:windswept_gravelly_hills_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4063,8 +4063,8 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:old_growth_pine_taiga",
-                              "minecraft:old_growth_spruce_taiga"
+                              "wastelandgen:old_growth_pine_taiga_waste",
+                              "wastelandgen:old_growth_spruce_taiga_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4111,7 +4111,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:ice_spikes"
+                              "wastelandgen:ice_spikes_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4135,7 +4135,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:mushroom_fields"
+                              "wastelandgen:mushroom_fields_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4209,8 +4209,8 @@
                     "then_run": {
                       "if_true": {
                         "biome_is": [
-                          "minecraft:frozen_ocean",
-                          "minecraft:deep_frozen_ocean"
+                          "wastelandgen:frozen_ocean_waste",
+                          "wastelandgen:deep_frozen_ocean_waste"
                         ],
                         "type": "minecraft:biome"
                       },
@@ -4246,7 +4246,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:frozen_peaks"
+                              "wastelandgen:frozen_peaks_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4317,7 +4317,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:snowy_slopes"
+                              "wastelandgen:snowy_slopes_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4382,7 +4382,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:jagged_peaks"
+                              "wastelandgen:jagged_peaks_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4397,7 +4397,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:grove"
+                              "wastelandgen:grove_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4443,7 +4443,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:stony_peaks"
+                                  "wastelandgen:stony_peaks_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -4478,7 +4478,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:stony_shore"
+                                  "wastelandgen:stony_shore_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -4534,7 +4534,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:windswept_hills"
+                                  "wastelandgen:windswept_hills_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -4558,9 +4558,9 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:warm_ocean",
+                                  "wastelandgen:warm_ocean_waste",
                                   "wastelandgen:beach_waste",
-                                  "minecraft:snowy_beach"
+                                  "wastelandgen:snowy_beach_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -4596,7 +4596,7 @@
                             {
                               "if_true": {
                                 "biome_is": [
-                                  "minecraft:desert"
+                                  "wastelandgen:desert_waste"
                                 ],
                                 "type": "minecraft:biome"
                               },
@@ -4650,7 +4650,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:windswept_savanna"
+                              "wastelandgen:windswept_savanna_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4674,7 +4674,7 @@
                         {
                           "if_true": {
                             "biome_is": [
-                              "minecraft:windswept_gravelly_hills"
+                              "wastelandgen:windswept_gravelly_hills_waste"
                             ],
                             "type": "minecraft:biome"
                           },
@@ -4792,9 +4792,9 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:warm_ocean",
+                        "wastelandgen:warm_ocean_waste",
                         "wastelandgen:beach_waste",
-                        "minecraft:snowy_beach"
+                        "wastelandgen:snowy_beach_waste"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -4819,7 +4819,7 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:desert"
+                        "wastelandgen:desert_waste"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -4859,8 +4859,8 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:frozen_peaks",
-                        "minecraft:jagged_peaks"
+                        "wastelandgen:frozen_peaks_waste",
+                        "wastelandgen:jagged_peaks_waste"
                       ],
                       "type": "minecraft:biome"
                     },
@@ -4875,9 +4875,9 @@
                   {
                     "if_true": {
                       "biome_is": [
-                        "minecraft:warm_ocean",
-                        "minecraft:lukewarm_ocean",
-                        "minecraft:deep_lukewarm_ocean"
+                        "wastelandgen:warm_ocean_waste",
+                        "wastelandgen:lukewarm_ocean_waste",
+                        "wastelandgen:deep_lukewarm_ocean_waste"
                       ],
                       "type": "minecraft:biome"
                     },
