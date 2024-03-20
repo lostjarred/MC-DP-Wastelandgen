@@ -1,12 +1,8 @@
 {
-  "surface_builder": "minecraft:desert",
-  "depth": 0.125,
-  "scale": 0.05,
   "temperature": 2,
   "downfall": 0,
   "precipitation": "none",
   "category": "desert",
-  "player_spawn_friendly": false,
   "effects": {
     "sky_color": 7254527,
     "fog_color": 12638463,
@@ -19,13 +15,6 @@
       "offset": 2
     }
   },
-  "starts": [
-    "minecraft:pillager_outpost",
-    "minecraft:desert_pyramid",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal_desert"
-  ],
   "spawners": {
     "monster": [
       {
@@ -85,6 +74,15 @@
     ],
     "creature": [],
     "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [
+      {
+        "type": "minecraft:glow_squid",
+        "weight": 10,
+        "minCount": 4,
+        "maxCount": 6
+      }
+    ],
     "water_creature": [],
     "water_ambient": [],
     "misc": []
@@ -93,18 +91,24 @@
   "carvers": {
     "air": [
       "minecraft:cave",
+      "minecraft:cave_extra_underground",
       "minecraft:canyon"
     ]
   },
   "features": [
     [],
     [
-      "minecraft:lake_lava"
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
     ],
-    [],
     [
-      "minecraft:fossil",
-      "minecraft:monster_room"
+      "minecraft:amethyst_geode"
+    ],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
     ],
     [
       "minecraft:desert_well"
@@ -113,26 +117,43 @@
     [
       "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:ore_coal_upper",
+      "minecraft:ore_coal_lower",
+      "minecraft:ore_iron_upper",
+      "minecraft:ore_iron_middle",
+      "minecraft:ore_iron_small",
       "minecraft:ore_gold",
+      "minecraft:ore_gold_lower",
       "minecraft:ore_redstone",
+      "minecraft:ore_redstone_lower",
       "minecraft:ore_diamond",
+      "minecraft:ore_diamond_large",
+      "minecraft:ore_diamond_buried",
       "minecraft:ore_lapis",
+      "minecraft:ore_lapis_buried",
+      "minecraft:ore_copper",
+      "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [],
     [
-      "minecraft:patch_dead_bush_2",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
       "minecraft:spring_water",
       "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:patch_dead_bush_2",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
     ],
     [
       "minecraft:freeze_top_layer"
