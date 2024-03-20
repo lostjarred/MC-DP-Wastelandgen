@@ -3009,7 +3009,7 @@
                                 },
                                 "then_run": {
                                   "result_state": {
-                                    "Name": "minecraft:grass_block",
+                                    "Name": "minecraft:dirt_block",
                                     "Properties": {
                                       "snowy": "false"
                                     }
@@ -4008,7 +4008,7 @@
                                       },
                                       "then_run": {
                                         "result_state": {
-                                          "Name": "minecraft:grass_block",
+                                          "Name": "minecraft:dirt_block",
                                           "Properties": {
                                             "snowy": "false"
                                           }
@@ -4161,7 +4161,7 @@
                               },
                               "then_run": {
                                 "result_state": {
-                                  "Name": "minecraft:grass_block",
+                                  "Name": "minecraft:dirt_block",
                                   "Properties": {
                                     "snowy": "false"
                                   }
