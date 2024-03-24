@@ -3881,7 +3881,7 @@
                             "if_true": {
                               "type": "minecraft:biome",
                               "biome_is": [
-                                "wastelandgen:wastelanddesert"
+                                "wastelandgen:desert_waste"
                               ]
                             },
                             "then_run": {
@@ -4678,7 +4678,7 @@
                               "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                  "wastelandgen:wastelanddesert"
+                                  "wastelandgen:desert_waste"
                                 ]
                               },
                               "then_run": {
@@ -4923,7 +4923,7 @@
                     "if_true": {
                       "type": "minecraft:biome",
                       "biome_is": [
-                        "wastelandgen:wastelanddesert"
+                        "wastelandgen:desert_waste"
                       ]
                     },
                     "then_run": {

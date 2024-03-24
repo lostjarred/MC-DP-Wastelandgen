@@ -6,7 +6,7 @@
     "settings": "wastelandgen:wasteland",
     "biome_source": {
       "type": "minecraft:fixed",
-      "biome": "wastelandgen:wastelanddesert"
+      "biome": "wastelandgen:desert_waste"
     }
   }
 }
