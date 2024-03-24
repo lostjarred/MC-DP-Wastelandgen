@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:overworld",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1237355130,
+    "settings": "wastelandgen:wasteland",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "wastelandgen:desert_waste"
+    }
+  }
+}
